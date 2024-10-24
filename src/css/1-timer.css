@@ -1,0 +1,57 @@
+.container {
+}
+.back-link {
+}
+.main-title {
+}
+
+.timer-input {
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  padding: 8px 16px 8px auto;
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.timer-btn {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background-color: #cfcfcf;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #989898;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 32px;
+}
+.field {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.value {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}

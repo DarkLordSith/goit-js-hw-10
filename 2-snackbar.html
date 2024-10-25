@@ -5,13 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 3</title>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-QDtGe2Jl.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-TJK7vknZ.css">
   </head>
   <body>
     <main>
       <div class="container">
         <a href="./index.html" class="back-link">Go back</a>
         <h1 class="main-title">Snackbar</h1>
+        <form class="form">
+          <label class="form-label">
+            Delay (ms)
+            <input class="form-input" type="number" name="delay" required />
+          </label>
+          <fieldset class="form-fielset">
+            <legend class="form-legend">State</legend>
+            <label class="form-radio-label">
+              <input
+                class="form-radio"
+                type="radio"
+                name="state"
+                value="fulfilled"
+                required
+              />
+              Fulfilled
+            </label>
+            <label class="form-radio-label">
+              <input
+                class="form-radio"
+                type="radio"
+                name="state"
+                value="rejected"
+                required
+              />
+              Rejected
+            </label>
+          </fieldset>
+          <button class="form-btn" type="submit">Create notification</button>
+        </form>
       </div>
     </main>
   </body>

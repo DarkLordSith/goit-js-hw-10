@@ -6,7 +6,7 @@
 }
 .main-title {
 }
-.form {
+.snackbar-form {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -32,6 +32,14 @@
   box-sizing: border-box;
 }
 
+.form-input:hover {
+  border: 1px solid #000;
+}
+
+.form-input:active {
+  border: 1px solid #4e75ff;
+}
+
 .form-fielset {
   display: flex;
   justify-content: space-around;
@@ -41,6 +49,10 @@
   padding: 8px 28px;
   gap: 48px;
   margin: 0;
+}
+
+.form-fielset:hover {
+  border: 1px solid #000;
 }
 
 .form-legend {
@@ -54,6 +66,7 @@
   display: flex;
   align-items: center;
   font-size: 16px;
+  line-height: 1.5;
   height: 32px;
 }
 
@@ -73,7 +86,8 @@
   width: auto;
   height: 40px;
   font-size: 16px;
-  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   transition: background-color 0.3s ease;
 }
 
